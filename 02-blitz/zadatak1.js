@@ -20,7 +20,6 @@ app.get("/getBrand",(req,res) => {
     }else{
         res.send({"status":"Failed","message":`Brand ${brand} not found in DB`})
     }
-     
 })
 
 app.get("/getItemById",(req,res) => {
